@@ -3,11 +3,46 @@
 <head>
 	<title>Página de ejemplo</title>
 	<link rel="stylesheet" type="text/css" href="estilos.css">
+	<meta charset="utf-8">
+	<style>
+		div.cities {
+		    background-color:black;
+		    color:white;
+		    margin:20px;
+		    padding:20px;
+		} 
+	</style>
 </head>
 <body>
 	<h1>Quantum Solutions</h1>
     <p>Bienvenido</p>
-    <p>Tenemos la solucion adecuada para cada problema</p>
+    <p style="color:white; text-align:center;">Tenemos la solucion adecuada para cada problema</p>
+
+    <p><strong>Acercate a nosootrosjejej  \"\"</strong></p>
+    <address>
+		Guillermo.<br> 
+		Visitanos en:<br>
+		quantumsolutions.com.mx<br>
+		<!-- Aqui va el telefono  -->
+		Mex
+	</address>
+    <a href="http://www.quantumsolutions.com.mx">Quantum</a>
+    <div class="cities">
+    	<h2>Mexico</h2>
+    	<p>Los mejores lugares para visitar</p>
+    </div>
+
+
+    <p id="texto">Cambiame</p>
+    <button type="button" onclick="cambiar()">Cambiar texto</button>
+	<script type="text/javascript">
+		function cambiar(){
+			//alert("y ora");
+			document.getElementById("texto").innerHTML = "Bien hecho campeon";
+		}
+	</script>
+
+
 
     <div>
     	<article>Ejemplo de texto en article</article>
